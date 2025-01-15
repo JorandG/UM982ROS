@@ -28,13 +28,13 @@ source devel/setup.bash
 ```
 
 ### **2. Add the Python Code**
-Ensure the provided Python script (`um982_driver.py`) is located in the correct directory within your ROS workspace. For example:
+Ensure the provided Python script (`um982ros.py`) is located in the correct directory within your ROS workspace. For example:
 ```bash
-~/catkin_ws/src/um982_driver/scripts/um982_driver.py
+~/catkin_ws/src/UM982ROS/um982ros.py
 ```
 Make the script executable:
 ```bash
-chmod +x ~/catkin_ws/src/um982_driver/scripts/um982_driver.py
+chmod +x ~/catkin_ws/src/UM982ROS/um982ros.py
 ```
 
 ### **3. Configure Parameters**
